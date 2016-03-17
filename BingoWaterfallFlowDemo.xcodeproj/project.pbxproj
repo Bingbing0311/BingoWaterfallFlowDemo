@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44D7139A1C9A721200F72500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D713991C9A721200F72500 /* main.m */; };
+		44D7139D1C9A721200F72500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D7139C1C9A721200F72500 /* AppDelegate.m */; };
+		44D713A01C9A721200F72500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D7139F1C9A721200F72500 /* ViewController.m */; };
+		44D713A31C9A721200F72500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D713A11C9A721200F72500 /* Main.storyboard */; };
+		44D713A61C9A721200F72500 /* BingoWaterfallFlowDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44D713A41C9A721200F72500 /* BingoWaterfallFlowDemo.xcdatamodeld */; };
+		44D713A81C9A721200F72500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D713A71C9A721200F72500 /* Assets.xcassets */; };
+		44D713AB1C9A721200F72500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D713A91C9A721200F72500 /* LaunchScreen.storyboard */; };
+		44D713B61C9A721200F72500 /* BingoWaterfallFlowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D713B51C9A721200F72500 /* BingoWaterfallFlowDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44D713B21C9A721200F72500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D7138D1C9A721100F72500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44D713941C9A721100F72500;
+			remoteInfo = BingoWaterfallFlowDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44D713951C9A721100F72500 /* BingoWaterfallFlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingoWaterfallFlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D713991C9A721200F72500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44D7139B1C9A721200F72500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44D7139C1C9A721200F72500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44D7139E1C9A721200F72500 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44D7139F1C9A721200F72500 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44D713A21C9A721200F72500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44D713A51C9A721200F72500 /* BingoWaterfallFlowDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BingoWaterfallFlowDemo.xcdatamodel; sourceTree = "<group>"; };
+		44D713A71C9A721200F72500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44D713AA1C9A721200F72500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44D713AC1C9A721200F72500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D713B11C9A721200F72500 /* BingoWaterfallFlowDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoWaterfallFlowDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D713B51C9A721200F72500 /* BingoWaterfallFlowDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BingoWaterfallFlowDemoTests.m; sourceTree = "<group>"; };
+		44D713B71C9A721200F72500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44D713921C9A721100F72500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D713AE1C9A721200F72500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D7138C1C9A721100F72500 = {
+			isa = PBXGroup;
+			children = (
+				44D713971C9A721200F72500 /* BingoWaterfallFlowDemo */,
+				44D713B41C9A721200F72500 /* BingoWaterfallFlowDemoTests */,
+				44D713961C9A721100F72500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44D713961C9A721100F72500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44D713951C9A721100F72500 /* BingoWaterfallFlowDemo.app */,
+				44D713B11C9A721200F72500 /* BingoWaterfallFlowDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D713971C9A721200F72500 /* BingoWaterfallFlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				44D7139B1C9A721200F72500 /* AppDelegate.h */,
+				44D7139C1C9A721200F72500 /* AppDelegate.m */,
+				44D7139E1C9A721200F72500 /* ViewController.h */,
+				44D7139F1C9A721200F72500 /* ViewController.m */,
+				44D713A11C9A721200F72500 /* Main.storyboard */,
+				44D713A71C9A721200F72500 /* Assets.xcassets */,
+				44D713A91C9A721200F72500 /* LaunchScreen.storyboard */,
+				44D713AC1C9A721200F72500 /* Info.plist */,
+				44D713A41C9A721200F72500 /* BingoWaterfallFlowDemo.xcdatamodeld */,
+				44D713981C9A721200F72500 /* Supporting Files */,
+			);
+			path = BingoWaterfallFlowDemo;
+			sourceTree = "<group>";
+		};
+		44D713981C9A721200F72500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44D713991C9A721200F72500 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44D713B41C9A721200F72500 /* BingoWaterfallFlowDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				44D713B51C9A721200F72500 /* BingoWaterfallFlowDemoTests.m */,
+				44D713B71C9A721200F72500 /* Info.plist */,
+			);
+			path = BingoWaterfallFlowDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44D713941C9A721100F72500 /* BingoWaterfallFlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D713BA1C9A721200F72500 /* Build configuration list for PBXNativeTarget "BingoWaterfallFlowDemo" */;
+			buildPhases = (
+				44D713911C9A721100F72500 /* Sources */,
+				44D713921C9A721100F72500 /* Frameworks */,
+				44D713931C9A721100F72500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingoWaterfallFlowDemo;
+			productName = BingoWaterfallFlowDemo;
+			productReference = 44D713951C9A721100F72500 /* BingoWaterfallFlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44D713B01C9A721200F72500 /* BingoWaterfallFlowDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D713BD1C9A721200F72500 /* Build configuration list for PBXNativeTarget "BingoWaterfallFlowDemoTests" */;
+			buildPhases = (
+				44D713AD1C9A721200F72500 /* Sources */,
+				44D713AE1C9A721200F72500 /* Frameworks */,
+				44D713AF1C9A721200F72500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44D713B31C9A721200F72500 /* PBXTargetDependency */,
+			);
+			name = BingoWaterfallFlowDemoTests;
+			productName = BingoWaterfallFlowDemoTests;
+			productReference = 44D713B11C9A721200F72500 /* BingoWaterfallFlowDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44D7138D1C9A721100F72500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bing;
+				TargetAttributes = {
+					44D713941C9A721100F72500 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					44D713B01C9A721200F72500 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 44D713941C9A721100F72500;
+					};
+				};
+			};
+			buildConfigurationList = 44D713901C9A721100F72500 /* Build configuration list for PBXProject "BingoWaterfallFlowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44D7138C1C9A721100F72500;
+			productRefGroup = 44D713961C9A721100F72500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44D713941C9A721100F72500 /* BingoWaterfallFlowDemo */,
+				44D713B01C9A721200F72500 /* BingoWaterfallFlowDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44D713931C9A721100F72500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D713AB1C9A721200F72500 /* LaunchScreen.storyboard in Resources */,
+				44D713A81C9A721200F72500 /* Assets.xcassets in Resources */,
+				44D713A31C9A721200F72500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D713AF1C9A721200F72500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44D713911C9A721100F72500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D713A01C9A721200F72500 /* ViewController.m in Sources */,
+				44D713A61C9A721200F72500 /* BingoWaterfallFlowDemo.xcdatamodeld in Sources */,
+				44D7139D1C9A721200F72500 /* AppDelegate.m in Sources */,
+				44D7139A1C9A721200F72500 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D713AD1C9A721200F72500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D713B61C9A721200F72500 /* BingoWaterfallFlowDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44D713B31C9A721200F72500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44D713941C9A721100F72500 /* BingoWaterfallFlowDemo */;
+			targetProxy = 44D713B21C9A721200F72500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44D713A11C9A721200F72500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D713A21C9A721200F72500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44D713A91C9A721200F72500 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D713AA1C9A721200F72500 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44D713B81C9A721200F72500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44D713B91C9A721200F72500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44D713BB1C9A721200F72500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BingoWaterfallFlowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinfu.BingoWaterfallFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44D713BC1C9A721200F72500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BingoWaterfallFlowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinfu.BingoWaterfallFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44D713BE1C9A721200F72500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BingoWaterfallFlowDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinfu.BingoWaterfallFlowDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoWaterfallFlowDemo.app/BingoWaterfallFlowDemo";
+			};
+			name = Debug;
+		};
+		44D713BF1C9A721200F72500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BingoWaterfallFlowDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinfu.BingoWaterfallFlowDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoWaterfallFlowDemo.app/BingoWaterfallFlowDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44D713901C9A721100F72500 /* Build configuration list for PBXProject "BingoWaterfallFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D713B81C9A721200F72500 /* Debug */,
+				44D713B91C9A721200F72500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D713BA1C9A721200F72500 /* Build configuration list for PBXNativeTarget "BingoWaterfallFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D713BB1C9A721200F72500 /* Debug */,
+				44D713BC1C9A721200F72500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44D713BD1C9A721200F72500 /* Build configuration list for PBXNativeTarget "BingoWaterfallFlowDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D713BE1C9A721200F72500 /* Debug */,
+				44D713BF1C9A721200F72500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44D713A41C9A721200F72500 /* BingoWaterfallFlowDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44D713A51C9A721200F72500 /* BingoWaterfallFlowDemo.xcdatamodel */,
+			);
+			currentVersion = 44D713A51C9A721200F72500 /* BingoWaterfallFlowDemo.xcdatamodel */;
+			path = BingoWaterfallFlowDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44D7138D1C9A721100F72500 /* Project object */;
+}
